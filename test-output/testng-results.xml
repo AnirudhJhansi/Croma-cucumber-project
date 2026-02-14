@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-14T09:33:57 IST" name="Default suite" finished-at="2026-02-14T09:34:30 IST" duration-ms="32586">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.anirudh.croma.runner.TestRunner@5aceec94]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-02-14T09:33:57 IST" name="Default test" finished-at="2026-02-14T09:34:30 IST" duration-ms="32586">
+      <class name="com.anirudh.croma.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.anirudh.croma.runner.TestRunner@5aceec94]" started-at="2026-02-14T09:33:57 IST" name="setUpClass" finished-at="2026-02-14T09:33:57 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4cae66a8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.anirudh.croma.runner.TestRunner@5aceec94]" started-at="2026-02-14T09:33:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-14T09:34:30 IST" duration-ms="32342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search laptop and validate price after applying max filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search laptops on Croma and pick the best within budget"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.anirudh.croma.runner.TestRunner@5aceec94]" started-at="2026-02-14T09:34:30 IST" name="tearDownClass" finished-at="2026-02-14T09:34:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.anirudh.croma.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

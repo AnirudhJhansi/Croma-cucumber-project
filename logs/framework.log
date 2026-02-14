@@ -1,0 +1,158 @@
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:07:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Anirudh.1.Sharma\AppData\Local\Temp\testng-eclipse--577986486\testng-customsuite.xml
+
+2026-02-14 09:07:51 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+2026-02-14 09:07:51 INFO  Hooks:18 - === START Scenario: Search laptop and validate price after applying max filter ===
+2026-02-14 09:07:51 INFO  DriverFactory:19 - Launching browser: chrome (headless=false)
+2026-02-14 09:07:53 INFO  WebDriverManager:1229 - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+2026-02-14 09:07:53 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Anirudh.1.Sharma\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+2026-02-14 09:08:08 INFO  SearchSteps:34 - Base URL: https://www.croma.com
+2026-02-14 09:08:12 INFO  ExcelReader:44 - Excel first row loaded: {searchTerm=laptop, maxPrice=1000000}
+2026-02-14 09:08:12 INFO  SearchSteps:45 - Loaded data => searchTerm='laptop', maxPrice=1000000
+2026-02-14 09:08:12 INFO  HomePage:21 - Searching for: laptop
+2026-02-14 09:08:23 INFO  SearchResultsPage:19 - Applying Max Price filter: 1000000
+2026-02-14 09:08:24 INFO  Hooks:38 - === END Scenario: Search laptop and validate price after applying max filter | Status: FAILED ===
+2026-02-14 09:08:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@3eac2e8a: 161 ms
+2026-02-14 09:08:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@32dcfeea: 47 ms
+2026-02-14 09:08:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@1552da16: 19 ms
+2026-02-14 09:08:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3ba3f40d: 11 ms
+2026-02-14 09:08:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@547aaa32: 13 ms
+2026-02-14 09:08:24 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@472c9f88: 0 ms
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:13:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Anirudh.1.Sharma\AppData\Local\Temp\testng-eclipse--1578626430\testng-customsuite.xml
+
+2026-02-14 09:13:30 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2026-02-14 09:13:31 INFO  Hooks:18 - === START Scenario: Search laptop and validate price after applying max filter ===
+2026-02-14 09:13:31 INFO  DriverFactory:19 - Launching browser: chrome (headless=false)
+2026-02-14 09:13:31 INFO  WebDriverManager:1229 - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+2026-02-14 09:13:31 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Anirudh.1.Sharma\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+2026-02-14 09:13:39 INFO  SearchSteps:33 - Base URL: https://www.croma.com
+2026-02-14 09:13:42 INFO  ExcelReader:44 - Excel first row loaded: {searchTerm=laptop, maxPrice=1000000}
+2026-02-14 09:13:42 INFO  SearchSteps:44 - Loaded data => searchTerm='laptop', maxPrice=1000000
+2026-02-14 09:13:42 INFO  HomePage:21 - Searching for: laptop
+2026-02-14 09:13:54 INFO  SearchResultsPage:17 - Selecting price range: 90,001 - 1,00,000
+2026-02-14 09:13:55 INFO  SearchResultsPage:45 - Price range applied successfully.
+2026-02-14 09:13:55 INFO  SearchResultsPage:51 - Trying to apply sort: Best Selling/Popular
+2026-02-14 09:14:00 WARN  SearchResultsPage:62 - Sort not applied: Element not clickable: By.xpath: //*[@id="container"]/div/div[3]/div/div[1]/div[2]/div/div/div[4]/div[3]/div/div/div[2]/ul/li[6]
+2026-02-14 09:14:01 INFO  SearchSteps:58 - Best product => Apple MacBook Air (13.6 inch, M4, 16GB, 256GB, macOS, Midnight) | Price => 99900
+2026-02-14 09:14:01 INFO  Hooks:38 - === END Scenario: Search laptop and validate price after applying max filter | Status: PASSED ===
+2026-02-14 09:14:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@539fc5d1: 189 ms
+2026-02-14 09:14:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@3962ec84: 3 ms
+2026-02-14 09:14:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@3719360c: 21 ms
+2026-02-14 09:14:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@112c2930: 15 ms
+2026-02-14 09:14:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@beabd6b: 39 ms
+2026-02-14 09:14:01 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@38de5daf: 0 ms
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-02-14 09:33:57 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Anirudh.1.Sharma\AppData\Local\Temp\testng-eclipse--229951840\testng-customsuite.xml
+
+2026-02-14 09:33:57 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2026-02-14 09:33:57 INFO  Hooks:18 - === START Scenario: Search laptop and validate price after applying max filter ===
+2026-02-14 09:33:57 INFO  DriverFactory:19 - Launching browser: chrome (headless=false)
+2026-02-14 09:33:58 INFO  WebDriverManager:1229 - Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+2026-02-14 09:33:58 INFO  WebDriverManager:1291 - Exporting webdriver.chrome.driver as C:\Users\Anirudh.1.Sharma\.cache\selenium\chromedriver\win64\144.0.7559.133\chromedriver.exe
+2026-02-14 09:34:06 INFO  SearchSteps:33 - Base URL: https://www.croma.com
+2026-02-14 09:34:11 INFO  ExcelReader:44 - Excel first row loaded: {searchTerm=laptop, maxPrice=1000000}
+2026-02-14 09:34:11 INFO  SearchSteps:44 - Loaded data => searchTerm='laptop', maxPrice=1000000
+2026-02-14 09:34:11 INFO  HomePage:21 - Searching for: laptop
+2026-02-14 09:34:22 INFO  SearchResultsPage:17 - Selecting price range: 90,001 - 1,00,000
+2026-02-14 09:34:24 INFO  SearchResultsPage:45 - Price range applied successfully.
+2026-02-14 09:34:24 INFO  SearchResultsPage:51 - Trying to apply sort: Best Selling/Popular
+2026-02-14 09:34:29 WARN  SearchResultsPage:62 - Sort not applied: Element not clickable: By.xpath: //*[@id="container"]/div/div[3]/div/div[1]/div[2]/div/div/div[4]/div[3]/div/div/div[2]/ul/li[6]
+2026-02-14 09:34:29 INFO  SearchSteps:58 - Best product => Apple MacBook Air (13.6 inch, M4, 16GB, 256GB, macOS, Midnight) | Price => 99900
+2026-02-14 09:34:29 INFO  Hooks:38 - === END Scenario: Search laptop and validate price after applying max filter | Status: PASSED ===
+2026-02-14 09:34:30 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@660b1a9d: 182 ms
+2026-02-14 09:34:30 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@2f4d01b6: 0 ms
+2026-02-14 09:34:30 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@44641d6c: 20 ms
+2026-02-14 09:34:30 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@aca3c85: 9 ms
+2026-02-14 09:34:30 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@69a373fd: 56 ms
+2026-02-14 09:34:30 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@19ae36f4: 0 ms
